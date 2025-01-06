@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Pexels Image Downloader
 
 ## Description
@@ -13,8 +12,8 @@ A Python script to download images from Pexels and automatically package them in
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/[username]/[repository-name].git
-   cd [repository-name]
+   git clone https://github.com/ragellistiyono/Pexels-mass-image-downloader.git
+   cd Pexels-mass-image-downloader
    ```
 
 2. Create and activate a virtual environment (recommended):
@@ -97,6 +96,3 @@ The script handles:
 - Progress indicators show both download and ZIP creation progress
 - API key is read from `api.key` file in the same directory as the script
 =======
-# Pexels-mass-image-downloader
-Mass image downloader and auto compress to the zip file
->>>>>>> 025c9468ecdbedb1f973aba826d606f51cc3db19
