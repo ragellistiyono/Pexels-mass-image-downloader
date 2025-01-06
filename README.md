@@ -15,25 +15,13 @@ A Python script to download images from Pexels and automatically package them in
    git clone https://github.com/ragellistiyono/Pexels-mass-image-downloader.git
    cd Pexels-mass-image-downloader
    ```
-
-2. Create and activate a virtual environment (recommended):
-   ```bash
-   # For Linux/MacOS
-   python3 -m venv venv
-   source venv/bin/activate
-
-   # For Windows
-   python -m venv venv
-   venv\Scripts\activate
-   ```
-
-3. Create the api.key file:
+2. Create the api.key file:
    ```bash
    echo "your_pexels_api_key_here" > api.key
    ```
    Replace `your_pexels_api_key_here` with your actual Pexels API key
 
-4. Verify installation:
+3. Verify installation:
    ```bash
    python test_api.py
    ```
@@ -67,8 +55,8 @@ python download.py cat 10
 # Download 20 dog images to specific directory
 python download.py dog 20 ~/Pictures
 
-# Download 50 landscape images
-python download.py landscape 50
+# Download 50 Badminton Player images
+python download.py "Badminton Player" 50
 ```
 
 ## Output Structure
