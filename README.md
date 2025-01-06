@@ -19,9 +19,10 @@ A Python script to download images from Pexels and automatically package them in
    ```bash
    echo "your_pexels_api_key_here" > api.key
    ```
-   Replace `your_pexels_api_key_here` with your actual Pexels API key
+   Replace `your_pexels_api_key_here` with your actual Pexels API key.
+   you can get the api key by registering an account here https://www.pexels.com/api/
 
-3. Verify installation:
+4. Verify installation:
    ```bash
    python test_api.py
    ```
